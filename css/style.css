@@ -1,40 +1,39 @@
 /* fonts */
-@font-face {
-  font-family: FONT NAME;
-  src: url("../fonts/FONT-FILE.FONT-FORMAT");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.header__logo {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-left: 220px;
+  margin-right: 310px;
+  margin-top: 63px;
+  letter-spacing: 6px;
+  cursor: pointer;
 }
 
-/* * {
+.header__ul {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
   margin: 0;
-  padding: 0;
-  list-style-type: none;
+  padding-left: 0;
+}
+
+.header__li {
+  display: inline-block;
+}
+
+a {
   text-decoration: none;
-} */
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 50px 350px 50px;
+  color: #626262;
+  padding: 50px;
+  font-size: 14px;
+  text-align: right;
 }
 
-header {
-  display: grid;
-  grid-column: span 12;
-  grid-template-columns: repeat(10, 1fr);
+.header__img {
+  margin-left: 220px;
+  margin-top: 65px;
 }
-
-main {
-  grid-column: span 10;
-}
-
-footer {
-  grid-column: span 12;
-}
-
-/* header {
-  display: flex;
-}
-
-header > div:nth-child(3) {
-  margin-left: auto;
-} */
