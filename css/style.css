@@ -45,9 +45,7 @@ a {
 }
 
 .item {
-  margin-left: 300px;
-  margin-top: 93px;
-  margin-right: 330px;
+  margin: 93px 330px 130px 300px;
 }
 
 .item__h4 {
@@ -71,4 +69,48 @@ a {
   color: #626262;
   font-size: 14px;
   line-height: 25px;
+}
+
+/* [class^="cards_box-"] {
+  display: grid;
+  place-items: start end;
+} */
+
+.cards_box-1,
+.cards_box-3 {
+  display: grid;
+  place-items: start end;
+}
+
+.cards_container {
+  display: grid;
+  gap: 10px;
+  column-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 50px;
+}
+
+.cards__h4 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: #626262;
+  font-size: 14px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.cards__title {
+  font-family: "Playfair Display", serif;
+  color: #000000;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.cards__text {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 25px;
+  width: 420px;
+  height: 100px;
 }
