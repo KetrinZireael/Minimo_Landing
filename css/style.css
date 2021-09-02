@@ -71,11 +71,6 @@ a {
   line-height: 25px;
 }
 
-/* [class^="cards_box-"] {
-  display: grid;
-  place-items: start end;
-} */
-
 .cards_box-1,
 .cards_box-3 {
   display: grid;
@@ -198,7 +193,6 @@ form {
 
 .footer__li {
   display: inline-block;
-  /* margin: 40px 20px 40px 100px; */
 }
 
 .footer__l {
