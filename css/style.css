@@ -176,3 +176,42 @@ form {
   margin: 140px 0 300px 660px;
   cursor: pointer;
 }
+
+.footer {
+  background-color: #f0f0f0;
+  height: 100px;
+  width: 100%;
+}
+
+.footer__left {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer__ul {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+}
+
+.footer__li {
+  display: inline-block;
+  /* margin: 40px 20px 40px 100px; */
+}
+
+.footer__l {
+  margin: 40px 20px 40px 100px;
+}
+
+.footer__r {
+  margin: 5px 10px 40px 10px;
+}
+
+.footer__icon {
+  float: right;
+  margin-top: 40px;
+  margin-right: 25px;
+  cursor: pointer;
+}
