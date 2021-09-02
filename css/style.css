@@ -129,6 +129,7 @@ a {
   width: 100%;
   height: 290px;
   margin-top: 80px;
+  margin-bottom: 90px;
 }
 
 .email__title {
@@ -163,5 +164,15 @@ form {
 .email__send {
   border: none;
   float: right;
+  cursor: pointer;
+}
+
+.cards__btn {
+  font-family: "Playfair Display", serif;
+  width: 160px;
+  height: 60px;
+  margin: auto;
+  background-color: white;
+  margin: 140px 0 300px 660px;
   cursor: pointer;
 }
