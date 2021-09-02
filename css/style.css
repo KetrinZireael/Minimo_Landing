@@ -82,12 +82,17 @@ a {
   place-items: start end;
 }
 
+.cards_box-2,
+.cards_box-4 {
+  display: grid;
+  place-items: center start;
+}
+
 .cards_container {
   display: grid;
-  gap: 10px;
-  column-gap: 50px;
+  gap: 90px;
+  column-gap: 80px;
   grid-template-columns: repeat(2, 1fr);
-  margin-left: 50px;
 }
 
 .cards__h4 {
@@ -97,6 +102,7 @@ a {
   font-size: 14px;
   margin-top: 40px;
   cursor: pointer;
+  width: 420px;
 }
 
 .cards__title {
@@ -104,6 +110,7 @@ a {
   color: #000000;
   font-size: 30px;
   margin-bottom: 30px;
+  width: 420px;
 }
 
 .cards__text {
@@ -117,4 +124,5 @@ a {
 
 .email {
   background-color: #f0f0f0;
+  align-items: center;
 }
