@@ -251,6 +251,6 @@ form {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 370px;
+    width: 350px;
   }
 }
