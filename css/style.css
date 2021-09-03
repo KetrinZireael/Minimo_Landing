@@ -98,6 +98,8 @@ a {
 
 .cards {
   margin-bottom: 100px;
+  display: grid;
+  row-gap: 100px;
 }
 
 .cards_box-1,
@@ -201,7 +203,6 @@ form {
   height: 60px;
   margin: auto;
   background-color: white;
-  /* margin: 140px 0 300px 660px; */
   cursor: pointer;
 }
 
