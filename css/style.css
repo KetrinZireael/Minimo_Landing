@@ -55,8 +55,8 @@ li > a {
 a {
   text-decoration: none;
   color: #626262;
-  font-size: 14px;
-  text-align: right;
+  /* font-size: 14px;
+  text-align: right; */
 }
 
 .header__menu-open {
