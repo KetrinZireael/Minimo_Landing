@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
 
 * {
   margin: 0;
@@ -17,6 +18,8 @@ body {
 
 .container {
   max-width: 1065px;
+  display: grid;
+  justify-content: center;
   /* width: 100%; */
 }
 
@@ -233,6 +236,26 @@ form {
 .footer__icon {
   float: right;
   cursor: pointer;
+}
+
+/* Page number two */
+
+.block-image {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-image__img {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.block-image__quote {
+  padding: 18px;
+  margin: 20px;
 }
 
 /* MEDIA */
